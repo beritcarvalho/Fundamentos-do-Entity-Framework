@@ -102,7 +102,7 @@ namespace FluentMapping.Data.Mappings
                     .HasOne<User>()
                     .WithMany()
                     .HasForeignKey("UserId")
-                     .HasConstraintName("FK_UserRole_RoleId")
+                     .HasConstraintName("FK_UserRole_UserId")
                     .OnDelete(DeleteBehavior.Cascade));
         }
     }
