@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using FluentMapping.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -71,6 +72,35 @@ namespace FluentMapping.Data.Mappings
             //DEFININDO OS INDICES
             builder.HasIndex(x => x.Slug, "IX_Post_Slug")
             .IsUnique();
+
+            //Relacionamentos
+            // 1 autor pode ter vários posts
+            builder.HasOne(b => b.Author)
+                .WithMany(a => a.Posts)
+                .HasConstraintName("FK_Post_Author")
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // 1 Varios posts pode ter 1 categoria
+            builder.HasOne(b => b.Category)
+                .WithMany(c => c.Posts)
+                .HasConstraintName("FK_Post_Category")
+                .OnDelete(DeleteBehavior.Cascade);
+
+
+            // um post pode ter varias tags e uma tag pode ter varios posts
+            builder.HasMany(b => b.Tags)// tem muitas tags e com varios posts
+                .WithMany(t => t.Posts)
+                .UsingEntity<Dictionary<string, object>>(
+                "PostTag",//nome da tabela amarração
+                post => post.HasOne<Tag>() // um posts com muitas tags
+                .WithMany()
+                .HasForeignKey("PostId")
+                .HasConstraintName("FK_PostTag_PostId")
+                .OnDelete(DeleteBehavior.Cascade),
+                tag => tag.HasOne<Post>()// uma tag com muitos posts
+                .WithMany().HasForeignKey("TagId")
+                .HasConstraintName("FK_PostTag_PostId")
+                .OnDelete(DeleteBehavior.Cascade));
         }
     }
 }
