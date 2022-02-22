@@ -12,7 +12,7 @@ namespace FluentMapping.Data
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseSqlServer("Server=localhost,1433;Database=FluentBlog;User ID=sa;Password=1q2w3e4r@#$");
+            => optionsBuilder.UseSqlServer("Server=localhost,1433;Database=FluentMappingBlog;User ID=sa;Password=1q2w3e4r@#$");
 
         //alem das configurações padroes do context, quando utilizamos o fluent mapping e classes de mapeamento
         //é necessário dizer para o contexto que temos classes de mapeamento

@@ -1,3 +1,4 @@
+C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\obj\Debug\net5.0\FluentMapping.AssemblyInfo.cs
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\FluentMapping.exe
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\FluentMapping.deps.json
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\FluentMapping.runtimeconfig.json
@@ -5,9 +6,11 @@ C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Fluent
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\FluentMapping.dll
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\ref\FluentMapping.dll
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\FluentMapping.pdb
+C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Humanizer.dll
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -54,7 +57,6 @@ C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\bin\Debug\net5.0\runtim
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\obj\Debug\net5.0\FluentMapping.csproj.AssemblyReference.cache
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\obj\Debug\net5.0\FluentMapping.GeneratedMSBuildEditorConfig.editorconfig
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\obj\Debug\net5.0\FluentMapping.AssemblyInfoInputs.cache
-C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\obj\Debug\net5.0\FluentMapping.AssemblyInfo.cs
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\obj\Debug\net5.0\FluentMapping.csproj.CoreCompileInputs.cache
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\obj\Debug\net5.0\FluentMapping.csproj.CopyComplete
 C:\Estudos\Fundamentos-do-Entity-Framework\FluentMapping\obj\Debug\net5.0\FluentMapping.dll

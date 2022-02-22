@@ -72,8 +72,14 @@ namespace FluentMapping.Data.Mappings
                 .IsRequired() // IS NOT NULL
                 .HasColumnName("Email") //Definando a coluna e o nome.
                 .HasColumnType("VARCHAR") //tipo da coluna
-                .HasMaxLength(200); // tamanho máximo da coluna.          
+                .HasMaxLength(200); // tamanho máximo da coluna.
+                                    // 
 
+            //Constrainsts da coluna Gitub
+            builder.Property(x => x.GitHub)                
+                .HasColumnName("GitHub") //Definando a coluna e o nome.
+                .HasColumnType("VARCHAR") //tipo da coluna
+                .HasMaxLength(200); // tamanho máximo da coluna.
 
             //DEFININDO OS INDICES
             /*
